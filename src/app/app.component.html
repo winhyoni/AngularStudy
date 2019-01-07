@@ -2,7 +2,10 @@
 <div style="text-align:center">
   <h1>
     {{ title }}
-    <app-heroes></app-heroes>
   </h1>
+  <nav>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
 </div>
-<router-outlet></router-outlet>
